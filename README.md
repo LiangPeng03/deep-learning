@@ -5,7 +5,8 @@
 ## 运行项目需要虚拟环境
 
 1. 需要自行安装 Anaconda。
-2. 导入环境：命令行输入 `conda env update -f=environment.yaml`。
+2. 导入环境：命令行输入 `conda env update -f=environment.yaml`
+3. 启动虚拟环境：命令行输入 `conda activate tf1`
 
 ## 训练模型
 
@@ -29,6 +30,7 @@ This image recognition project, based on TensorFlow, employs an existing convolu
 ## Create a virtual environment
 1. Install Anaconda.
 2. Enter the command: `conda env update -f=environment.yaml`.
+3. Enter the command: `conda activate tf1`
    
 ## Modifications to cnn.py 
 1. The training directory is specified as follows:<br>
